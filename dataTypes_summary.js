@@ -25,4 +25,25 @@ const myFunction = function(){
 }
 
 
+// stack (primitive), Heap (non-primitive)
+
+let myYouTubeName = "premdotcom"
+
+let anotherName = myYouTubeName
+
+anotherName = "anything"
+
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl.com"
+}
+let userTwo = userOne
+
+userTwo.email = "prem@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
